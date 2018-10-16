@@ -9,11 +9,7 @@ import com.wuruoye.news.model.util.DataUtil
 import com.wuruoye.news.model.util.SecretUtil
 import java.net.URLEncoder
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 20:29.
- * @Description :
- */
+
 class LoginPresenter : LoginLoginContract.Presenter() {
     private val mUserCache = UserCache.getInstance()
 

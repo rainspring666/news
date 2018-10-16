@@ -7,11 +7,7 @@ import com.wuruoye.news.model.API
 import com.wuruoye.news.model.UserCache
 import com.wuruoye.news.model.util.DataUtil
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/10 10:20.
- * @Description :
- */
+
 class MainPresenter : MainContract.Presenter() {
     private val userCache = UserCache.getInstance()
 

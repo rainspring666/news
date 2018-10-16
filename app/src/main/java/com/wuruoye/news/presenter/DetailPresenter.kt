@@ -10,11 +10,7 @@ import com.wuruoye.news.model.UserCache
 import com.wuruoye.news.model.bean.ArticleItem
 import com.wuruoye.news.model.util.DataUtil
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 11:04.
- * @Description :
- */
+
 class DetailPresenter : DetailContract.Presenter() {
     private val mUserCache = UserCache.getInstance()
     private var mNextComment = 0L

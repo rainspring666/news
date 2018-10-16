@@ -5,11 +5,7 @@ import com.wuruoye.news.model.UserCache
 import com.wuruoye.news.model.bean.Api
 import com.wuruoye.news.model.bean.Title
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/11 11:40.
- * @Description :
- */
+
 class ItemChoosePresenter : ItemChooseContract.Presenter() {
     override fun getApi(): Map<String, Api> {
         return UserCache.getInstance().api

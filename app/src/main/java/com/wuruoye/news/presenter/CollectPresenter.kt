@@ -7,11 +7,7 @@ import com.wuruoye.news.contract.CollectContract
 import com.wuruoye.news.model.API
 import com.wuruoye.news.model.util.DataUtil
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/14 20:44.
- * @Description :
- */
+
 class CollectPresenter : CollectContract.Presenter() {
     private var mNext = 0L
 

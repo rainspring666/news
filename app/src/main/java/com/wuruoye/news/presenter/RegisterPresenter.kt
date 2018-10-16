@@ -8,11 +8,7 @@ import com.wuruoye.news.model.util.DataUtil
 import com.wuruoye.news.model.util.SecretUtil
 import java.util.regex.Pattern
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 21:03.
- * @Description :
- */
+
 class RegisterPresenter : LoginRegisterContract.Presenter() {
     override fun checkEmail(email: String): Boolean {
         val check = "\"^([a-z0-9A-Z]+[-|\\\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]" +

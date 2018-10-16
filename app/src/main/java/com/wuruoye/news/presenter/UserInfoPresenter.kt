@@ -11,11 +11,7 @@ import com.wuruoye.news.model.bean.LoginUser
 import com.wuruoye.news.model.util.DataUtil
 import java.util.regex.Pattern
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/14 14:51.
- * @Description :
- */
+
 class UserInfoPresenter : UserInfoContract.Presenter() {
 
     override fun getAvatarPath(): String {
