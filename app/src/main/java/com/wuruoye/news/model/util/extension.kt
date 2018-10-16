@@ -9,12 +9,6 @@ import android.renderscript.ScriptIntrinsicBlur
 import android.util.Log
 import android.widget.Toast
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/14 09:11.
- * @Description :
- */
-
 fun Context.toast(message: String) {
     Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
 }

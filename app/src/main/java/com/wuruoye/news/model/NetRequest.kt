@@ -8,11 +8,7 @@ import java.io.File
 import java.io.IOException
 import java.util.concurrent.TimeUnit
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/17 12:05.
- * @Description :
- */
+
 class NetRequest : OKHttpNet() {
     private val cookieList = arrayListOf<Cookie>()
     init {

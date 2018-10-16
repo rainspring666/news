@@ -3,11 +3,7 @@ package com.wuruoye.news.model
 import com.wuruoye.library.model.WBaseCache
 import com.wuruoye.news.model.bean.Api
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/10 10:06.
- * @Description : 用户数据缓存
- */
+
 class UserCache private constructor(): WBaseCache("user") {
     companion object {
         private val sInstance = UserCache()

@@ -5,11 +5,7 @@ import android.content.Intent
 import com.wuruoye.library.util.ResourceUtil
 import com.wuruoye.news.R
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/16 10:18.
- * @Description :
- */
+
 object ShareUtil {
     fun shareText(context: Context, text: String) {
         val intent = Intent(Intent.ACTION_SEND)

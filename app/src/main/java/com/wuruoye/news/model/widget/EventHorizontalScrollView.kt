@@ -5,11 +5,7 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.widget.HorizontalScrollView
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/14 19:58.
- * @Description :
- */
+
 class EventHorizontalScrollView : HorizontalScrollView{
     private var mOnTouchListener: OnTouchListener? = null
 

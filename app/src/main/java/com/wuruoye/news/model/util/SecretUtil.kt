@@ -9,11 +9,6 @@ import javax.crypto.Cipher
 import javax.crypto.spec.OAEPParameterSpec
 import javax.crypto.spec.PSource
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 20:30.
- * @Description :
- */
 object SecretUtil {
     private val PUBLIC_RSA_KEY =
                     "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDE+n0Mx/S7y9p5tln9G2LlXvFi\n" +

@@ -5,11 +5,7 @@ import com.wuruoye.news.model.bean.*
 import org.json.JSONArray
 import org.json.JSONObject
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/10 10:36.
- * @Description : 网络数据解析类
- */
+
 object DataUtil {
     private val sGson = Gson()
 
