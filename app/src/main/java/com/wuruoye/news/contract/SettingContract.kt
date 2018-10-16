@@ -3,11 +3,7 @@ package com.wuruoye.news.contract
 import com.wuruoye.library.contract.WIView
 import com.wuruoye.library.contract.WPresenter
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/15 12:45.
- * @Description :
- */
+
 class SettingContract {
     interface View : WIView {
         fun onResultLogout(result: Boolean, info: String)

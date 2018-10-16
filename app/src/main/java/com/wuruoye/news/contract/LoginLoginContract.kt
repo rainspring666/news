@@ -4,11 +4,7 @@ import com.wuruoye.library.contract.WIView
 import com.wuruoye.library.contract.WPresenter
 import com.wuruoye.news.model.bean.LoginUser
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 20:08.
- * @Description :
- */
+
 class LoginLoginContract {
     interface View : WIView {
         fun onResultLoginInfo(info: String)

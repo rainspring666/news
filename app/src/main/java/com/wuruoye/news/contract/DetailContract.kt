@@ -7,11 +7,7 @@ import com.wuruoye.news.model.bean.ArticleDetail
 import com.wuruoye.news.model.bean.ArticleInfo
 import com.wuruoye.news.model.bean.ArticleItem
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/11 21:45.
- * @Description :
- */
+
 class DetailContract {
     interface View : WIView {
         fun onResultDetail(detail: ArticleDetail)

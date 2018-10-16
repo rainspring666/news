@@ -5,11 +5,7 @@ import com.wuruoye.library.contract.WPresenter
 import com.wuruoye.news.model.bean.Api
 import com.wuruoye.news.model.bean.Title
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/11 11:39.
- * @Description :
- */
+
 class ItemChooseContract {
     interface View : WIView {
 

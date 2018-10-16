@@ -4,11 +4,7 @@ import com.wuruoye.library.contract.WIView
 import com.wuruoye.library.contract.WPresenter
 import com.wuruoye.news.model.bean.ArticleList
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/10 19:15.
- * @Description :
- */
+
 class ArticleListContract {
     interface View : WIView {
         fun onResultList(articleList: ArticleList, add: Boolean)
