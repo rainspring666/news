@@ -1,10 +1,6 @@
 package com.wuruoye.news.model.bean
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/13 15:32.
- * @Description :
- */
+
 data class ArticleComment(
         var id: Int,
         var article: String,

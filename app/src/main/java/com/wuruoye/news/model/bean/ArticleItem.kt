@@ -3,11 +3,7 @@ package com.wuruoye.news.model.bean
 import android.os.Parcel
 import android.os.Parcelable
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/10 19:10.
- * @Description :
- */
+
 data class ArticleItem(
         var id: String,
         var title: String,
