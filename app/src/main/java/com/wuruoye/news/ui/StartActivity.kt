@@ -15,11 +15,7 @@ import com.wuruoye.news.model.UserCache
 import com.wuruoye.news.presenter.StartPresenter
 import kotlinx.android.synthetic.main.activity_start.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/13 11:23.
- * @Description :
- */
+
 class StartActivity : WBaseActivity<StartContract.Presenter>(), StartContract.View {
     companion object {
         val TEXT_TRANSLATION = 600

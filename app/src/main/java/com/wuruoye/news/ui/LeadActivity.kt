@@ -11,11 +11,7 @@ import com.wuruoye.news.contract.LeadContract
 import com.wuruoye.news.presenter.LeadPresenter
 import kotlinx.android.synthetic.main.activity_lead.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/17 10:18.
- * @Description :
- */
+
 class LeadActivity : WBaseActivity<LeadContract.Presenter>(), LeadContract.View{
     companion object {
         const val MAX_PAGE = 3

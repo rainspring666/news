@@ -8,11 +8,7 @@ import com.wuruoye.news.contract.LeadContract
 import com.wuruoye.news.contract.LeadFragmentContract
 import kotlinx.android.synthetic.main.fragment_lead.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/17 10:36.
- * @Description :
- */
+
 class LeadFragment : WBaseFragment<LeadFragmentContract.Presenter>(), LeadFragmentContract.View,
         View.OnClickListener {
     companion object {

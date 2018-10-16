@@ -18,11 +18,7 @@ import com.wuruoye.news.model.util.toast
 import com.wuruoye.news.presenter.SettingPresenter
 import kotlinx.android.synthetic.main.activity_setting.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/15 12:46.
- * @Description :
- */
+
 class SettingActivity : WBaseActivity<SettingContract.Presenter>(), SettingContract.View,
         View.OnClickListener, CompoundButton.OnCheckedChangeListener {
     companion object {

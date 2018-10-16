@@ -11,11 +11,7 @@ import com.wuruoye.news.contract.UserContract
 import com.wuruoye.news.presenter.MainPresenter
 import kotlinx.android.synthetic.main.activity_main.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/9 12:04.
- * @Description : 主页
- */
+
 class MainActivity : WBaseActivity<MainContract.Presenter>(), MainContract.View {
     private lateinit var mUserView: UserContract.View
 

@@ -14,11 +14,7 @@ import com.wuruoye.news.contract.ItemChooseContract
 import com.wuruoye.news.presenter.ItemChoosePresenter
 import kotlinx.android.synthetic.main.activity_item_choose.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/11 12:18.
- * @Description :
- */
+
 class ItemChooseActivity : WBaseActivity<ItemChooseContract.Presenter>(),
         ItemChooseContract.View, View.OnClickListener, ApiRVAdapter.OnActionListener {
     override fun getContentView(): Int {

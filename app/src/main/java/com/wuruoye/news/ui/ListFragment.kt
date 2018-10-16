@@ -20,11 +20,7 @@ import com.wuruoye.news.model.bean.Item
 import com.wuruoye.news.presenter.ListPresenter
 import kotlinx.android.synthetic.main.fragment_list.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/10 19:14.
- * @Description :
- */
+
 class ListFragment : WBaseFragment<ArticleListContract.Presenter>(), ArticleListContract.View,
         WBaseRVAdapter.OnItemClickListener<ArticleItem>, ArticleItemRVAdapter.OnActionListener,
         SwipeRefreshLayout.OnRefreshListener {

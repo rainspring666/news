@@ -10,11 +10,7 @@ import com.wuruoye.news.R
 import com.wuruoye.news.contract.LoginContract
 import kotlinx.android.synthetic.main.activity_login.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 20:06.
- * @Description :
- */
+
 class LoginActivity : WBaseActivity<LoginContract.Presenter>(), LoginContract.View,
         View.OnClickListener {
     companion object {

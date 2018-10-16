@@ -19,11 +19,7 @@ import com.wuruoye.news.contract.WebContract
 import com.wuruoye.news.model.util.ShareUtil
 import kotlinx.android.synthetic.main.activity_web.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 09:20.
- * @Description :
- */
+
 class  WebActivity : WBaseActivity<WebContract.Presenter>(), WebContract.View,
         View.OnClickListener, PopupMenu.OnMenuItemClickListener {
     private lateinit var mUrl: String

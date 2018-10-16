@@ -14,11 +14,7 @@ import com.wuruoye.news.contract.LoginRegisterContract
 import com.wuruoye.news.presenter.RegisterPresenter
 import kotlinx.android.synthetic.main.fragment_register.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 20:10.
- * @Description :
- */
+
 class RegisterFragment : WBaseFragment<LoginRegisterContract.Presenter>(),
         LoginRegisterContract.View {
     private lateinit var dlgRegister: AlertDialog

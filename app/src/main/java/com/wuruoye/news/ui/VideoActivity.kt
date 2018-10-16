@@ -11,11 +11,7 @@ import com.wuruoye.news.R
 import com.wuruoye.news.contract.VideoContract
 import kotlinx.android.synthetic.main.activity_video.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 15:00.
- * @Description :
- */
+
 class VideoActivity : WBaseActivity<VideoContract.Presenter>(), VideoContract.View,
         MediaPlayer.OnPreparedListener, MediaPlayer.OnErrorListener, MediaPlayer.OnCompletionListener {
     private lateinit var mUrl: String

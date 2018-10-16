@@ -35,11 +35,7 @@ import com.wuruoye.news.model.util.toast
 import com.wuruoye.news.presenter.DetailPresenter
 import kotlinx.android.synthetic.main.activity_detail.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/11 21:47.
- * @Description :
- */
+
 class DetailActivity : WBaseActivity<DetailContract.Presenter>(),
         DetailContract.View, View.OnClickListener, CommentRVAdapter.OnActionListener, PopupMenu.OnMenuItemClickListener {
     private lateinit var mArticle: ArticleItem

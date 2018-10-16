@@ -15,11 +15,7 @@ import com.wuruoye.news.model.util.toast
 import com.wuruoye.news.presenter.CollectPresenter
 import kotlinx.android.synthetic.main.activity_collect.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/14 20:31.
- * @Description :
- */
+
 class CollectActivity : WBaseActivity<CollectContract.Presenter>(), CollectContract.View,
         WBaseRVAdapter.OnItemClickListener<ArticleCollect>, CollectRVAdapter.OnActionListener,
         View.OnClickListener {

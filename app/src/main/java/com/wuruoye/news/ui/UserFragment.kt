@@ -25,11 +25,7 @@ import com.wuruoye.news.presenter.UserPresenter
 import com.wuruoye.news.ui.SettingActivity.Companion.RESULT_LOGOUT
 import kotlinx.android.synthetic.main.fragment_user.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/9 16:55.
- * @Description : 用户页面
- */
+
 class UserFragment : WBaseFragment<UserContract.Presenter>(), UserContract.View,
         View.OnClickListener {
     companion object {

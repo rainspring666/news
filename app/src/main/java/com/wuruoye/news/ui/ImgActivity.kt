@@ -12,11 +12,7 @@ import com.wuruoye.news.adapter.ImgVPAdapter
 import com.wuruoye.news.contract.ImgContract
 import kotlinx.android.synthetic.main.activity_img.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 08:58.
- * @Description :
- */
+
 class ImgActivity : WBaseActivity<ImgContract.Presenter>(), ImgContract.View {
     private lateinit var mImgList: List<String>
     private var mPosition: Int = 0

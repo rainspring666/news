@@ -17,11 +17,7 @@ import com.wuruoye.news.model.bean.LoginUser
 import com.wuruoye.news.presenter.LoginPresenter
 import kotlinx.android.synthetic.main.fragment_login.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 20:09.
- * @Description :
- */
+
 class LoginFragment : WBaseFragment<LoginLoginContract.Presenter>(),
         LoginLoginContract.View, View.OnClickListener {
 

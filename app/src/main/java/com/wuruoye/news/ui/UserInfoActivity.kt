@@ -23,11 +23,7 @@ import com.wuruoye.news.model.util.toast
 import com.wuruoye.news.presenter.UserInfoPresenter
 import kotlinx.android.synthetic.main.activity_user_info.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/14 14:33.
- * @Description :
- */
+
 class UserInfoActivity : WBaseActivity<UserInfoContract.Presenter>(), UserInfoContract.View,
         View.OnClickListener, IWPhoto.OnWPhotoListener<String> {
     companion object {
