@@ -17,11 +17,7 @@ import com.wuruoye.news.R
 import com.wuruoye.news.model.bean.ArticleComment
 import de.hdodenhof.circleimageview.CircleImageView
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/13 16:52.
- * @Description :
- */
+
 class CommentRVAdapter : WBaseRVAdapter<ArticleComment>(){
     companion object {
         const val TYPE_NORMAL = 1

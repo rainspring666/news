@@ -16,11 +16,7 @@ import com.wuruoye.news.R
 import com.wuruoye.news.model.bean.ArticleCollect
 import com.wuruoye.news.model.widget.EventHorizontalScrollView
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/14 19:49.
- * @Description :
- */
+
 class CollectRVAdapter : WBaseRVAdapter<ArticleCollect>() {
     companion object {
         const val TYPE_NORMAL = 1

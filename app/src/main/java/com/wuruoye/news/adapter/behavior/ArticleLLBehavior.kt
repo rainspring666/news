@@ -6,11 +6,7 @@ import android.support.design.widget.CoordinatorLayout
 import android.util.AttributeSet
 import android.view.View
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/13 15:04.
- * @Description :
- */
+
 class ArticleLLBehavior : CoordinatorLayout.Behavior<View> {
     constructor(context: Context, attr: AttributeSet)
 

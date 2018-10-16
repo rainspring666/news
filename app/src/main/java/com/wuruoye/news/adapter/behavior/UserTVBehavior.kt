@@ -7,11 +7,7 @@ import android.util.AttributeSet
 import android.view.View
 import com.wuruoye.library.util.DensityUtil
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 16:40.
- * @Description :
- */
+
 class UserTVBehavior : CoordinatorLayout.Behavior<View> {
     private var top = 0F
     private var startX = 0F

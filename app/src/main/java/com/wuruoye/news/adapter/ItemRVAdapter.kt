@@ -10,11 +10,7 @@ import com.wuruoye.news.R
 import com.wuruoye.news.model.bean.Item
 import kotlinx.android.synthetic.main.item_item.view.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/11 12:05.
- * @Description :
- */
+
 class ItemRVAdapter : WBaseRVAdapter<Item>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {

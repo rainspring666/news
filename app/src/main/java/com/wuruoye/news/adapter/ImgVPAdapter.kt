@@ -4,11 +4,7 @@ import android.support.v4.view.PagerAdapter
 import android.view.View
 import android.view.ViewGroup
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 09:02.
- * @Description :
- */
+
 class ImgVPAdapter(
         private val imgList: List<View>
 ) :PagerAdapter() {

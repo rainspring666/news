@@ -7,11 +7,7 @@ import android.util.AttributeSet
 import android.view.View
 import com.wuruoye.library.util.DensityUtil
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/12 15:52.
- * @Description :
- */
+
 class UserIVBehavior : CoordinatorLayout.Behavior<View> {
     private var length = 0F
     private var top = 0F

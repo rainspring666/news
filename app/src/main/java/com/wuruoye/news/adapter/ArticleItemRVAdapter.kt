@@ -15,11 +15,7 @@ import com.wuruoye.news.R
 import com.wuruoye.news.model.UserCache
 import com.wuruoye.news.model.bean.ArticleItem
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/10 19:51.
- * @Description :
- */
+
 class ArticleItemRVAdapter : WBaseRVAdapter<ArticleItem>() {
     companion object {
         const val TYPE_NORMAL = 1

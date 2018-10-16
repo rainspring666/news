@@ -11,11 +11,7 @@ import com.wuruoye.news.R
 import com.wuruoye.news.model.bean.Api
 import kotlinx.android.synthetic.main.item_api.view.*
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/11 14:25.
- * @Description :
- */
+
 class ApiRVAdapter: WBaseRVAdapter<Map.Entry<String, Api>>() {
     private var mOnActionListener: OnActionListener? = null
 

@@ -11,11 +11,7 @@ import com.wuruoye.news.R
 import com.wuruoye.news.model.bean.Item
 import com.wuruoye.news.model.bean.Title
 
-/**
- * @Created : wuruoye
- * @Date : 2018/7/11 12:00.
- * @Description :
- */
+
 class TitleRVAdapter : WBaseRVAdapter<Map.Entry<String, Title>>() {
     private var mOnActionListener: OnActionListener? = null
 
